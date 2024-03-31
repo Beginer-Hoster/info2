@@ -1,0 +1,51 @@
+img{
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+}
+.info-box{
+    width: 250px;
+    height: 420px;
+    padding: 20px;
+    border: 2px solid #857f7f;
+    border-radius: 10px;
+    box-shadow: 3px 3px #857f7f;
+    margin: 0 auto;
+    margin-top: -330px;
+    z-index: 1;
+}
+h1{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: default;
+}
+p{
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: default;
+    font-weight: 500;
+}
+button{
+    padding: 10px;
+    background-color: cadetblue;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    box-shadow: 2px 2px #c5c5c5;
+    color: #fff;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid cadetblue;
+    transition: 0.5s ease;
+    color: #333;
+}
+.txt{
+    font-size: 100px;
+    margin-left: 150px;
+    word-spacing: 290px;
+    margin-top: 200px;
+    color: chocolate;
+    z-index: -1;
+    cursor: pointer;
+}
